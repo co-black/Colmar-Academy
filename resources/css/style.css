@@ -1,9 +1,64 @@
 /* Universal Syles */
 
-html{
-
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #01161E;
 }
 
-body{
-
+body {
+  font-family: "Open Sans", sans-serif;
+  top: 4rem;
+  color: #01161E;
 }
+
+/* Header */
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  border: 1px solid red;
+}
+
+header img {
+  height: 32px;
+  margin-left: 24px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo h3 {
+  color: lightgray;
+}
+
+.header-logo span {
+  color: black;
+}
+
+/* Navigation */
+
+nav {
+  padding-right: 24px;
+  align-self: center;
+  display: flex;
+}
+
+ header .desktop {
+   display: inline-block;
+   color: black
+
+ }
+
+ header .mobile{
+   display: none;
+ }
