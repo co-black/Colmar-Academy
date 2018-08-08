@@ -12,6 +12,35 @@ body {
   color: #01161E;
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding-left: 1rem;
+  color: #01161E;
+  font-size: 1.25rem;
+}
+
 /* Header */
 
 header {
@@ -62,3 +91,55 @@ nav {
  header .mobile{
    display: none;
  }
+
+/* Banner Section */
+
+.banner {
+display: block;
+}
+
+.banner img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+  flex-shrink: 0;
+}
+
+.side-text {
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.banner h3 {
+    margin: 1.5rem 0;
+}
+
+.banner .side-text {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+
+/* Start Button */
+
+.start {
+  width: 75%;
+  background-color: #ADBED3;
+  color: #01161E;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  text-align: center;
+  transition:color 400ms, background-color 400ms;
+  font-weight: bold;
+}
+
+.start:hover {
+  background-color: #FF7954;
+  color: #01161E;
+}
+
+.information .content-box:last-child, .thesis .content-box:first-child {
+  background-color: #EEF9ED;
+}
