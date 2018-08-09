@@ -147,8 +147,7 @@ background-color: lightgray;
 }
 
 .start:hover {
-  background-color: #FF7954;
-  color: #01161E;
+  background-color: #00BFFF;
 }
 
 /* Second Section "Keep Practicing" */
@@ -169,6 +168,7 @@ background-color: lightgray;
 .main-pic-box img, video {
   width: 100%;
   margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .main-pic-box h2 {
@@ -189,7 +189,7 @@ background-color: lightgray;
   display: flex;
   flex-flow: column;
   vertical-align: top;
-  margin-top: 1rem;
+  margin-top: 2rem;
   width: 35%;
 }
 
@@ -206,7 +206,7 @@ background-color: lightgray;
 }
 
 .content-box a {
-  color: #FF7954;
+  color: #00BFFF;
   padding: 0;
 }
 
