@@ -33,6 +33,11 @@ h3 {
   font-weight: bold;
 }
 
+p {
+  line-height: 1.35;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
 a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
@@ -148,10 +153,67 @@ background-color: lightgray;
 
 /* Second Section "Keep Practicing" */
 
-/* Big Containers */
+/* Big Container */
 
 .multi-container {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
+}
+
+.main-pic-box {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.main-pic-box img, video {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.main-pic-box h2 {
+  padding: 0 0 1.5rem 0;
+}
+
+.main-pic-box h5 {
+  padding: 32px 0px;
+}
+
+#mobile-pic {
+  display: none;
+}
+
+/* Small Container */
+
+.stacked-content-box {
+  display: flex;
+  flex-flow: column;
+  vertical-align: top;
+  margin-top: 1rem;
+  width: 35%;
+}
+
+.content-box img {
+  width: 35%;
+  margin: 3.5%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.content-box .side-text {
+  width: 55%;
+  vertical-align: middle;
+}
+
+.content-box a {
+  color: #FF7954;
+  padding: 0;
+}
+
+.main-pic-box {
+  padding: 1rem 1rem 1.5rem 1.5rem;
+}
+
+.information .content-box:last-child, .content-box:first-child {
+  background-color: lightgray;
 }
