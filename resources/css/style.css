@@ -132,6 +132,10 @@ background-color: #D3D3D3;
     box-sizing: border-box;
 }
 
+.banner h1{
+  color: ..;
+}
+
 
 /* Start Button */
 
@@ -256,8 +260,16 @@ background-color: #D3D3D3;
   padding: 1rem 0 0 1rem;
 }
 
-/* Footer Section "Thesis Exhbit" */
+.learn-text h3 {
+  color: #00BFFF;
+}
 
-footer {
-  ..
+/* Fourth Section "Thesis Exhbit" */
+
+.thesis .main-pic-box {
+  padding: 1rem 1rem 1.5rem 1.5rem;
+}
+
+.thesis h2 {
+  text-align: center;
 }
