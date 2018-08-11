@@ -338,6 +338,7 @@ footer span {
     width: 100%;
     /*padding: 2rem 1rem;*/
     margin: auto;
+    margin-bottom: 2rem;
   }
 
   .banner .side-text {
@@ -346,4 +347,40 @@ footer span {
     margin: auto;
   }
 
+    /* Mobile Third Section "Start Learning" */
+
+  .stacked-content-box, .content-box .side-text{
+    width: 100%;
+    background-color: white;
+  }
+
+  .content-box {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .content-box img {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+  }
+
+  #mobile-pic {
+    display: block;
+    box-sizing: border-box;
+    padding: 1rem 1rem 1.5rem 1rem;
+ }
+
+  .content-box a {
+   font-size: 1rem;
+  }
+
+  .content-box .side-text {
+    text-align: center;
+  }
+
+  .side-text a:last-child {
+    padding-bottom: 2rem;
+  }
+  
 }
