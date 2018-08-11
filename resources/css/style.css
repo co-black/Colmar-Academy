@@ -300,3 +300,50 @@ footer h5 {
 footer span {
   padding-left: 1rem;
 }
+
+/* Mobile Version Settings */
+
+@media only screen and (max-width:470px) {
+
+/* Do Not Display */
+
+  footer nav, header .desktop, .header-logo, .information .main-pic-box,
+  .thesis .stacked-content-box, .thesis p, .thesis h3, .learn-box img,
+  .course-box p, #pc-pic {
+    display: none;
+  }
+
+/* Mobile Header */
+
+  header .mobile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  header .mobile img {
+    width: auto;
+    height: 90%;
+  }
+
+  /* Mobile Start Banner */
+
+  .start {
+    width: 100%;
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+
+  .banner img {
+    width: 100%;
+    /*padding: 2rem 1rem;*/
+    margin: auto;
+  }
+
+  .banner .side-text {
+    width: 100%;
+    padding: 0 1rem;
+    margin: auto;
+  }
+
+}
