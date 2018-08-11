@@ -347,7 +347,7 @@ footer span {
     margin: auto;
   }
 
-    /* Mobile Third Section "Start Learning" */
+    /* Mobile Second Section "Keep Practicing" */
 
   .stacked-content-box, .content-box .side-text{
     width: 100%;
@@ -382,5 +382,43 @@ footer span {
   .side-text a:last-child {
     padding-bottom: 2rem;
   }
-  
+
+   /* Mobile Third Section "Start Learning */
+
+  .learn {
+    border-top: 1px solid #8A97A8;
+    border-bottom: 1px solid #8A97A8;
+  }
+
+  .learn-box {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .learn-container {
+    flex-flow: column;
+  }
+
+  .learn-text {
+    padding: 1rem;
+  }
+
+  /* Mobile Fourth Section "Thesis Exhibit */
+
+  .thesis .main-pic-box {
+    width: 100%;
+    padding: 0 0 2rem 0;
+  }
+
+  video {
+    margin:auto;
+  }
+
+  /* Mobile Footer */
+
+  h5 {
+    margin: 1.5rem 0 0 0;
+  }
 }
